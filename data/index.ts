@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,35 +72,41 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Healthcare App",
+    des: "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js..",
+    img: "national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "nextjs.svg",
+      "nextjs-icon-svgrepo-com.svg",
+    ],
+    link: "https://healthcare-ve23.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Netflix Clone",
+    des: "I've been working on this Netflix Clone, a fully responsive web application that mimics the popular streaming platform. Built using modern web technologies like React, Vite, and API integrations, it allows users to browse through movie titles, view details, and explore a range of genres",
+    img: "/screenshot-for-readme.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://netflix-clone-njmf.onrender.com/",
   },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
+  // {
+  //   id: 3,
+  //   title: "AI Image SaaS - Canva Application",
+  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+  //   img: "/p3.svg",
+  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+  //   link: "",
+  // },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "coming soon",
+    des: "Realtime Responsive Chat App with React, Node.js, Socket.io and MongoDB with Group Chats",
+    img: "/coming soon o.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://healthcare-ve23.vercel.app/",
   },
 ];
 
@@ -187,8 +193,8 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Snuggle App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Chat System Dev Project",
+    desc: "I’m excited to share that I’m developing a new chat system, which will be available soon. Stay tuned for more updates—looking forward to bringing you a great communication experience!.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
@@ -205,13 +211,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/christiangoddy", // GitHub doesn't have an app-specific deep link
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "twitter://user?screen_name=your_twitter_username", // Deep link for Twitter
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/christian-goddy-3b61272b8", // Deep link for LinkedIn
   },
 ];
