@@ -102,11 +102,11 @@ export const projects = [
   // },
   {
     id: 4,
-    title: "coming soon",
-    des: "Realtime Responsive Chat App with React, Node.js, Socket.io and MongoDB with Group Chats",
-    img: "/coming soon o.jpg",
+    title: "Threads clone App",
+    des: "A dynamic social media platform featuring real-time chat capabilities using the MERN stack, Socket.io, and Chakra UI. Enjoy features like JWT authentication, post management, user interactions, and a fully responsive design.",
+    img: "/threads app.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://healthcare-ve23.vercel.app/",
+    link: "https://threads-clone-3pht.onrender.com/",
   },
 ];
 
