@@ -94,19 +94,19 @@ export const projects = [
   },
   // {
   //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+  //   title: "Vireo   Interview Platform",
+  //   des: "video calling interview platform! Perfect for seamless interviews with a built-in code editor for JavaScript, React, and PHP.",
   //   img: "/p3.svg",
   //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
   //   link: "",
   // },
   {
     id: 4,
-    title: "Threads clone App",
-    des: "A dynamic social media platform featuring real-time chat capabilities using the MERN stack, Socket.io, and Chakra UI. Enjoy features like JWT authentication, post management, user interactions, and a fully responsive design.",
-    img: "/threads app.jpg",
+    title: "Vireo   Interview Platform",
+    des: "video calling interview platform! Perfect for seamless interviews with a built-in code editor for JavaScript, React, and PHP.",
+    img: "/inteview platform.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://threads-clone-3pht.onrender.com/",
+    link: " https://vireo-interview-platform.vercel.app/",
   },
 ];
 
