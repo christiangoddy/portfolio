@@ -92,14 +92,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://netflix-clone-njmf.onrender.com/",
   },
-  // {
-  //   id: 3,
-  //   title: "Vireo   Interview Platform",
-  //   des: "video calling interview platform! Perfect for seamless interviews with a built-in code editor for JavaScript, React, and PHP.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "",
-  // },
+  {
+    id: 3,
+    title: "Horizon Banking Platform",
+    des: "A banking app with a finance management dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users on the platform.",
+    img: "/pexels-energepic-com-27411-2988232.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    link:"https://banking-git-main-christians-projects-7e90b8a3.vercel.app",
+  },
   {
     id: 4,
     title: "Vireo   Interview Platform",
