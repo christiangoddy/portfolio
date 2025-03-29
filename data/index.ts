@@ -98,7 +98,7 @@ export const projects = [
     des: "A banking app with a finance management dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users on the platform.",
     img: "/pexels-energepic-com-27411-2988232.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
-    link:"https://banking-git-main-christians-projects-7e90b8a3.vercel.app",
+    link: "https://banking-git-main-christians-projects-7e90b8a3.vercel.app",
   },
   {
     id: 4,
@@ -107,6 +107,14 @@ export const projects = [
     img: "/inteview platform.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: " https://vireo-interview-platform.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "PrepWise Interview AI",
+    des: "A a real-time AI-driven mock interview platform with Next.js and Vapi AI, offering personalized prep sessions just for you.",
+    img: "/robot.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    link: "https://prepwise-ai-interviewer.vercel.app",
   },
 ];
 
